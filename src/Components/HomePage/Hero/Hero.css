@@ -1,0 +1,30 @@
+#hero {
+  background-image: url(https://i.pinimg.com/564x/7e/40/99/7e4099b6af0a3cdc7e7e4cec5031a7cd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top 25% right 0;
+  height: 90vh;
+  width: 100%;
+  padding: 0 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+#hero h4 {
+  padding-bottom: 15px;
+}
+#hero h1 {
+  color: #088178;
+}
+#hero button {
+  background-image: url();
+  background-color: transparent;
+  color: #088178;
+  border: 0;
+  padding: 14px 80px 14px 65px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+}

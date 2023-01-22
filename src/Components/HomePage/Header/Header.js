@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { AiFillShopping } from "react-icons/ai";
-import "./Header.css"
+import "./Header.css";
 function Header() {
   return (
     <section id="header">
@@ -12,19 +12,29 @@ function Header() {
       <nav>
         <ul id="home-navbar">
           <li>
-            <Link id="home-nav-links" className="active" to="/home">خانه</Link>
+            <Link id="home-nav-links" className="active" to="/home">
+              خانه
+            </Link>
           </li>
           <li>
-            <Link id="home-nav-links" to="/shop">فروشگاه</Link>
+            <Link id="home-nav-links" to="/shop">
+              فروشگاه
+            </Link>
           </li>
           <li>
-            <Link id="home-nav-links" to="/blog">بلاگ</Link>
+            <Link id="home-nav-links" to="/blog">
+              بلاگ
+            </Link>
           </li>
           <li>
-            <Link id="home-nav-links" to="/aboutus">درباره</Link>
+            <Link id="home-nav-links" to="/aboutus">
+              درباره
+            </Link>
           </li>
           <li>
-            <Link id="home-nav-links" to="/contactus">تماس با ما</Link>
+            <Link id="home-nav-links" to="/contactus">
+              تماس با ما
+            </Link>
           </li>
           <li>
             <Link id="home-nav-links" to="/shopcart">
