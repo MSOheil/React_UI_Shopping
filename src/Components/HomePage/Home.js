@@ -7,6 +7,8 @@ import Banner from "./Banner/Banner";
 import NewArrivals from "./NewArrivials/NewArrivials";
 import SmBanner from "./smBanner/SmBanner";
 import SubBanners from "./SubBanners/SubBanners";
+import NewsLetter from "./NewsLetter/NewsLetter";
+import Footer from "./Footer/Footer";
 function Home() {
   return (
     <>
@@ -18,6 +20,8 @@ function Home() {
       <NewArrivals />
       <SmBanner />
       <SubBanners />
+      <NewsLetter />
+      <Footer />
     </>
   );
 }
