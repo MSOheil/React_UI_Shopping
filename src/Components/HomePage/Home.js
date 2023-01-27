@@ -6,6 +6,7 @@ import Products from "./Product/ProductOne";
 import Banner from "./Banner/Banner";
 import NewArrivals from "./NewArrivials/NewArrivials";
 import SmBanner from "./smBanner/SmBanner";
+import SubBanners from "./SubBanners/SubBanners";
 function Home() {
   return (
     <>
@@ -16,6 +17,7 @@ function Home() {
       <Banner />
       <NewArrivals />
       <SmBanner />
+      <SubBanners />
     </>
   );
 }
