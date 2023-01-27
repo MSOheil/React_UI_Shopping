@@ -27,6 +27,3 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-#features .feature-box:nth-child(even) h6 {
-  background: red;
-}

@@ -1,0 +1,39 @@
+#sm-banner .banner-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: url("../../../Images/sdfas.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: flex-start;
+  min-width: 580px;
+  height: 50vh;
+  padding: 30px;
+}
+
+#sm-banner{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 1%;
+}
+#sm-banner h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+#sm-banner h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+#sm-banner span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+#sm-banner .banner-box:hover button{
+    color: red;
+    border: 1px solid #efd;
+}
