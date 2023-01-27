@@ -1,6 +1,6 @@
 import React from "react";
 import "./Feature.css";
-import image from "../../../Images/download (1).jfif";
+import image from "../../../Images/download.jfif";
 function Feature() {
   return (
     <section id="features" className="section-p1">
@@ -28,7 +28,6 @@ function Feature() {
         <img src={image} alt="This is feature" />
         <h6>Free Shoping</h6>
       </div>
-      
     </section>
   );
 }
